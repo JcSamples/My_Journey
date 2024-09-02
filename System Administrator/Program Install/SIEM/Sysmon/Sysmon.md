@@ -6,7 +6,7 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
 
 Download Systernals Suite
 https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
-![](Imagens/Pasted%20image%2020240611222350.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240611222350.png)
 
 
 ## Using SwiftOnSecurity sysmon-config
