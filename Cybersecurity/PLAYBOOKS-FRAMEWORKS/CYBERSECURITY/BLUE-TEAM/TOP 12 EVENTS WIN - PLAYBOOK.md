@@ -26,7 +26,7 @@ https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?even
 
 
 NIST CSF FRAMEWORK - DETECT - RESPOND - RECOVER
-![](../../../../Pasted%20image%2020240617112145.png)
+![](../../../../../Pasted%20image%2020240617112145.png)
 
 ### 5 W´s
 
