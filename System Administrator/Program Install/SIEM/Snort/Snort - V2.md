@@ -33,7 +33,7 @@ wget https://github.com/gperftools/gperftools/releases/download/gperftools-2.9.1
 sudo ip link set ens33 promisc on
 `````
 
-![](Pasted%20image%2020240616140831.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616140831.png)
 
 
 ### Run: 
