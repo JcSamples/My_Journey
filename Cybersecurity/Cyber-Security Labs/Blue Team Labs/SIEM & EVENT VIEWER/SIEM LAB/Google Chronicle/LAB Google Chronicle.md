@@ -5,7 +5,7 @@ Após termos efetuado o Upload da pasta zipada efetuamos a nossa primeira querry
 index = main
 
 ![[Pasted image 20240518213938.png]]
-![Pasted image](../Imagens/Pasted%20image%2020240518213938.png)    
+![Pasted image](./Pasted%20image%2020240518213938.png)    
 
 Selecionamos o "ALL TIME" para que o Chronicle conseguisse obter informação relacionada com a nossa pasta zipada
 
