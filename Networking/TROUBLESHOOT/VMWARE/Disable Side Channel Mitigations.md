@@ -2,7 +2,7 @@
 Go to the (vmx) file
 
 
-![](Pasted%20image%2020240613114559.png)
+![[Pasted image 20240613114559.png]]
 
 ### Open the file with Notepad
 

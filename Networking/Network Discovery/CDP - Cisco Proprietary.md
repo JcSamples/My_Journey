@@ -1,15 +1,15 @@
 # Check CDP Status
 
-![](Imagens/Pasted%20image%2020240611101951.png)
+![[Imagens/Pasted image 20240611101951.png]]
 
 # Enable CDP on the Interface
-![](Imagens/Pasted%20image%2020240611102102.png)
+![[Pasted image 20240611102102.png]]
 
 # Check Neighbors
-![](Imagens/Pasted%20image%2020240611102147.png)
+![[Pasted image 20240611102147.png]]
 
 
-![](Imagens/Pasted%20image%2020240611102242.png)
+![[Pasted image 20240611102242.png]]
 
 # Display the status of CDP on R1.
 
