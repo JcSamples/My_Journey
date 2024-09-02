@@ -54,27 +54,27 @@ sudo snort -c /etc/snort/snort.conf -T
 `````
 
 Here **"-T"** is used for testing configuration, and **"-c"** is identifying the configuration file **(snort.conf)**.  
-![](Pasted%20image%2020240617202120.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240617202120.png)
 
 
 **Snort in Sniffer Mode**
 
-![](Pasted%20image%2020240617203148.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240617203148.png)
 
 ### -v 
 
 
-![](Pasted%20image%2020240617203517.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240617203517.png)
 
 ### -d
 
 
-![](Pasted%20image%2020240617203644.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240617203644.png)
 
 ### sudo snort -d -e -i eth0
 
 
-![](Pasted%20image%2020240617204300.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240617204300.png)
 
 ### Capture logs in binary format 
 
@@ -83,7 +83,7 @@ sudo snort -dev -l .
 `````
 
 
-![](Pasted%20image%2020240617205157.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240617205157.png)
 
 ### Capture logs in ASCII format
 
@@ -92,7 +92,7 @@ sudo snort -dev -K ASCII -l .
 `````
 
 
-![](Pasted%20image%2020240617204533.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240617204533.png)
 
 
 ## Analyze the logs with Snort
