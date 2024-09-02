@@ -23,7 +23,6 @@ My objective is to share all my knowledge with the community. Here, you will fin
 
 ## Frameworks
 
-[Provide frameworks you are familiar with]
 
 ## Tools
 
