@@ -12,8 +12,8 @@ Or Select Option 13 in pfSense
 
 If it doesn't work in the Web Browser:
 
-![](../../../../Imagens/Pasted%20image%2020240616132819.png)
-![](../../../../Imagens/Pasted%20image%2020240616132908.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616132819.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616132908.png)
 
 ````shell
 pfSense-repoc
