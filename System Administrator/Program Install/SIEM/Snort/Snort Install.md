@@ -19,7 +19,7 @@ sudo apt install cmake
 wget https://github.com/gperftools/gperftools/releases/download/gperftools-2.9.1.1/gperftools-2.9.1.1.tar.gz
 
 
-# Set interface to Premisc
+# Set interface to Promisc
 
 ![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616140852.png)
 ````shell
