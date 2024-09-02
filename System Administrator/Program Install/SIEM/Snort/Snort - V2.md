@@ -28,7 +28,7 @@ wget https://github.com/gperftools/gperftools/releases/download/gperftools-2.9.1
 # Set the interface to Promiscuous Mode
 
 
-![](../Cybersecurity/Imagens/Pasted%20image%2020240616140852.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616140852.png)
 ````shell
 sudo ip link set ens33 promisc on
 `````
