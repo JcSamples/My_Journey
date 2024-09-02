@@ -1,33 +1,36 @@
 
 ## Query index = main and index = *
-Após termos efetuado o Upload da pasta zipada efetuamos a nossa primeira querry
+After uploading the zipped folder, we executed our first query
 
 index = main
 
 
 ![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518213938.png)    
 
-Selecionamos o "ALL TIME" para que o Chronicle conseguisse obter informação relacionada com a nossa pasta zipada
+We selected "ALL TIME" so that Chronicle could retrieve information related to our uploaded zipped folder.
 
-Verificamos que com a querry index = main obtemos várias informações
+We noticed that with the query index = main, we obtained various pieces of information
 ![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518214150.png)
 
-## Filtering buy Host: Mailsv
-Vamos filtrar as informações usando a query : index=main host=mailsv
+## Filtering by Host: Mailsv
+
+Let's filter the information using the query:
 
 ![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518214628.png)
 
-Verificamos que temos 9,829 eventos dos 109 mil anteriores.
+We observed that we have 9,829 events out of the previous 109,000.
 
 ## Mailsv Root Login Attempts
 
 
-Vamos pesquisar apartir de log fails do servidor mailsv user root usando a query: index=main host=mailsv fail* root
+Let's search for failed log attempts on the mailsv server for the user root using the query:
+
+index=main host=mailsv fail* root
 
 ![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518215206.png)
 
 
-Verificamos que existem 346 tentativas de login.
+We found that there were 346 login attempts.
 ![[Pasted]](./Imagens/Pasted%20image%2020240518215943.png)
 
 # LAB 2
