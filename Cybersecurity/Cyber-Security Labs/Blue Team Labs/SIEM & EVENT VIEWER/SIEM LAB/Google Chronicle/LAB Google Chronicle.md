@@ -1,34 +1,37 @@
 
 ## Query index = main and index = *
-Após termos efetuado o Upload da pasta zipada efetuamos a nossa primeira querry
+After uploading the zipped folder, we executed our first query
 
 index = main
 
-![[Pasted image 20240518213938.png]]
-![Pasted image](../Imagens/Pasted%20image%2020240518213938.png)    
 
-Selecionamos o "ALL TIME" para que o Chronicle conseguisse obter informação relacionada com a nossa pasta zipada
+![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518213938.png)    
 
-Verificamos que com a querry index = main obtemos várias informações
-![[Pasted image 20240518214150.png]]
+We selected "ALL TIME" so that Chronicle could retrieve information related to our uploaded zipped folder.
 
-## Filtering buy Host: Mailsv
-Vamos filtrar as informações usando a query : index=main host=mailsv
+We noticed that with the query index = main, we obtained various pieces of information
+![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518214150.png)
 
-![[Pasted image 20240518214628.png]]
+## Filtering by Host: Mailsv
 
-Verificamos que temos 9,829 eventos dos 109 mil anteriores.
+Let's filter the information using the query:
+
+![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518214628.png)
+
+We observed that we have 9,829 events out of the previous 109,000.
 
 ## Mailsv Root Login Attempts
 
 
-Vamos pesquisar apartir de log fails do servidor mailsv user root usando a query: index=main host=mailsv fail* root
+Let's search for failed log attempts on the mailsv server for the user root using the query:
 
-![[Pasted image 20240518215206.png]]
+index=main host=mailsv fail* root
+
+![[Pasted image_20240518213938.png]](./Imagens/Pasted%20image%2020240518215206.png)
 
 
-Verificamos que existem 346 tentativas de login.
-![[Pasted image 20240518215943.png]]
+We found that there were 346 login attempts.
+![[Pasted]](./Imagens/Pasted%20image%2020240518215943.png)
 
 # LAB 2
 
@@ -42,9 +45,9 @@ You are a security analyst at a financial services company. You receive an alert
 
 After identifying the suspicious domain: signin.office365x24.com, we conducted a search on the Google Chronicle 'demo' site.
 
-![[Pasted image 20240518221011.png]]
+![[Pasted]](./Imagens/Pasted%20image%2020240518221011.png)
 
-![[Pasted image 20240518221302.png]]
+![[Pasted]](./Imagens/Pasted%20image%2020240518221302.png)
 
 ````
 target.hostname = "signin.office365x24.com" OR network.dns.questions.name = "signin.office365x24.com"
@@ -54,19 +57,19 @@ target.hostname = "signin.office365x24.com" OR network.dns.questions.name = "sig
 
 Out of curiosity, I also searched on the Whois site and found that the domain is registered under the name Alberto, and the server is active with the IP: 104.21.77.241.
 
-![[Pasted image 20240518221438.png]]
+![[Pasted]](./Imagens/Pasted%20image%2020240518221438.png)
 
 
 
-![[Pasted image 20240518222341.png]]
+![[Pasted]](./Imagens/Pasted%20image%2020240518222341.png)
 
 We have by the possibility of using AI in the search engine, which made the query much easier.
 
 
-![[Pasted image 20240518222905.png]]
+![[Pasted]](./Imagens/Pasted%20image%2020240518222905.png)
 
 
-![[Pasted image 20240518223445.png]]
+![[Pasted]](./Imagens/Pasted%20image%2020240518223445.png)
 
 ````
 metadata.event_type = "NETWORK_HTTP" AND target.url = /signin.office365x24.com/ AND network.http.method = "POST"
@@ -79,7 +82,7 @@ I had to modify the AI query, which I didn't expect, as it recommended using AND
 metadata.event_type = "NETWORK_HTTP" AND target.url = /signin.office365x24.com/ ==OR== network.http.method = "POST"
 `````
 
-![[Pasted image 20240518223644.png]]
+![[Pasted]](./Imagens/Pasted%20image%2020240518223644.png)
 
 ````
 network.http.method = "POST" AND target.ip = "40.100.174.34" OR metadata.event_type = "NETWORK_HTTP"
