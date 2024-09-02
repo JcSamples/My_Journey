@@ -1,0 +1,1 @@
+BPDU Guard is a security feature that helps prevent loops by disabling interfaces that receive unexpected BPDU packets.

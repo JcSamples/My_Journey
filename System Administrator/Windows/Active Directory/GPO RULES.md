@@ -1,0 +1,12 @@
+
+- Establishing different password policies for service accounts, admin accounts, and standard user accounts using separate GPOs
+- Preventing the use of removable media devices (such as USB devices)
+- Enforcing a screensaver with a password
+- Restricting access to applications that a standard user may not need, such as cmd.exe and PowerShell
+- Enforcing audit and logging policies
+- Blocking users from running certain types of programs and scripts
+- Deploying software across a domain
+- Blocking users from installing unapproved software
+- Displaying a logon banner whenever a user logs into a system
+- Disallowing LM hash usage in the domain
+- Running scripts when computers start/shutdown or when a user logs in/out of their machine

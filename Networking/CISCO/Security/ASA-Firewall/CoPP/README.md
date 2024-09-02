@@ -1,0 +1,4 @@
+
+Control Plane Policing (CoPP) is a crucial network security feature designed to protect the control plane of a router or switch, which is responsible for processing all the essential traffic used to maintain the network's operations, such as routing updates, management traffic, and protocol communications. The control plane is vital for the stability and performance of the network, and if it becomes overwhelmed or compromised, the entire network can be severely impacted.
+
+CoPP allows network administrators to create policies that limit the rate at which control plane traffic is processed. By configuring CoPP, you can define specific traffic classes and apply rate limits to each, ensuring that no single type of traffic can monopolize the control plane's resources. This prevents potential Denial of Service (DoS) attacks, where an attacker floods the control plane with malicious traffic, from disrupting network operations.
