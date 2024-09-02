@@ -11,4 +11,4 @@ sudo nano /etc/snmp/snmp.conf
 
 ### Uncomment 
 
-![](../../../Cybersecurity/Imagens/Pasted%20image%2020240717103200.png)
+![](../../../Imagens/Pasted%20image%2020240717103200.png)
