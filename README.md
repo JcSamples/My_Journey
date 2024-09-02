@@ -18,7 +18,7 @@ My objective is to share all my knowledge with the community. Here, you will fin
 | Network Configurations                        | [Configuration Lab](https://github.com/JcSamples/My_Journey/tree/main/Networking) |
 | System Administrator Monitoring               | [Monitoring](https://github.com/JcSamples/My_Journey/tree/main/System%20Administrator) |
 | System Administrator Active Directory         | [Active Directory Lab](https://github.com/JcSamples/My_Journey/tree/main/System%20Administrator/Windows/Active%20Directory) |
-| Cybersecurity SOC Analyst Labs                | SOC Automation Lab          |
+| Cybersecurity SOC Analyst Labs                | [SOC Automation Project]([https://github.com/JcSamples/My_Journey/tree/main/System%20Administrator/Windows/Active%20Directory](https://github.com/JcSamples/My_Journey/tree/main/Cybersecurity/Cyber-Security%20Labs/My%20SOC%20Project))  |
 | Cybersecurity Labs                            | [Configuration Lab](https://github.com/JcSamples/My_Journey/tree/main/Cybersecurity/Cyber-Security%20Labs) |  
 
 ## Frameworks
