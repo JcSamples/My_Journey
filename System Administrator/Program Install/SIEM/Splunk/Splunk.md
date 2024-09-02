@@ -16,7 +16,7 @@ sudo /opt/splunk/bin/splunk start
 `````
 
 
-![](Pasted%20image%2020240616033508.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616033508.png)
 
 ![](Pasted%20image%2020240616033517.png)
 
