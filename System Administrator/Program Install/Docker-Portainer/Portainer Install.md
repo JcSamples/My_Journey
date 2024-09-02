@@ -24,7 +24,7 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -
 
 `````
 
-![](Imagens/Pasted%20image%2020240611225257.png)
+![](../../../Cybersecurity/Imagens/Pasted%20image%2020240611225257.png)
 
 ## Optional
 Update Portainer:**
