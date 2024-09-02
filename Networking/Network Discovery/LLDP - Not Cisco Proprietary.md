@@ -1,6 +1,6 @@
 # Verify Status and Enable LLDP
-![[Pasted image 20240611102643.png]]
+![](../Imagens/Pasted%20image%2020240611102643.png)
 
 # Check LLDP with detail
 
-![[Pasted image 20240611102743.png]]
+![](../Imagens/Pasted%20image%2020240611102743.png)
