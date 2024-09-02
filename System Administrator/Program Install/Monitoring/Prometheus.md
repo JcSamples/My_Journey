@@ -109,7 +109,7 @@ scrape_configs:
 
 ##### Grafana =  of host:9090
 
-![](Pasted%20image%2020240614025724.png)
+![](../../../Cybersecurity/Imagens/Pasted%20image%2020240614025724.png)
 
 
 #### Configurations with CADVISOR
