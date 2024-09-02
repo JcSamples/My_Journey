@@ -12,7 +12,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 In Stacks, Select Add new Stack
 
-![](../Imagens/Pasted%20image%2020240611231710.png)
+![](../../Cybersecurity/Imagens/Pasted%20image%2020240611231710.png)
 
 ### Paste The docker compose file
 
