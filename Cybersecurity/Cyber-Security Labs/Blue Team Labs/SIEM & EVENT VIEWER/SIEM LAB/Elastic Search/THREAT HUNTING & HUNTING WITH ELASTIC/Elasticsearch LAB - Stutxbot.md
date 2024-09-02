@@ -2,6 +2,8 @@ We start by searching for the file name with event.code 15, where we will filter
 
 ![[Pasted image 20240616173909.png]]
 
+
+
 We had 3 hits.
 
 By analysing these, we can see that the file was downloaded using the Microsoft Edge application.
