@@ -6,7 +6,7 @@ We had 3 hits.
 
 By analysing these, we can see that the file was downloaded using the Microsoft Edge application.
 
-![Pasted image](../../../1-Images/Pasted%20image%20240616174044.png)
+![Pasted image](../../../1-Images/Pasted%20image%2020240616174044.png)
 
 _ATTENTION_ This discovery simply shows how the file arrived on the victim's machine; it does not show the execution of the file.
 
