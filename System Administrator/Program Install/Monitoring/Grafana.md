@@ -27,7 +27,7 @@ services:
 <ip>:3000
 `````
 
-![](Pasted%20image%2020240614013105.png)
+![](../../../Cybersecurity/Imagens/Pasted%20image%2020240614013105.png)
 
 Default Credentials : admin:admin
 
