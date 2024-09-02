@@ -1,6 +1,6 @@
 We start by searching for the file name with event.code 15, where we will filter the file hash
 
-![Pasted image](My_Journey/Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/1-Image/Pasted%20image%2020240616173909.png)
+![Pasted image](../1-Images/Pasted%20image%2020240616173909.png)
 
 We had 3 hits.
 
