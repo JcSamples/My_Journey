@@ -1,8 +1,8 @@
-![[Pasted image 20240616131125.png]]
+![](../../../../Imagens/Pasted%20image%2020240616131125.png)
 
 ### Check if pfSense Resolves Domain Names
 
-![[Pasted image 20240616131417.png]]
+![](../../../../Imagens/Pasted%20image%2020240616131417.png)
 
 Or Select Option 13 in pfSense
 
@@ -12,8 +12,8 @@ Or Select Option 13 in pfSense
 
 If it doesn't work in the Web Browser:
 
-![[Pasted image 20240616132819.png]]
-![[Pasted image 20240616132908.png]]
+![](../../../../Imagens/Pasted%20image%2020240616132819.png)
+![](../../../../Imagens/Pasted%20image%2020240616132908.png)
 
 ````shell
 pfSense-repoc
