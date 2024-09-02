@@ -15,7 +15,7 @@ This type of query can help identify brute force attacks, password guessing, and
 
 ## FREE QUERY SEARCH
 
-![](../1-Images/Pasted%20image%2020240225185318.png)
+![](../../1-Images/Pasted%20image%2020240225185318.png)
 
 Comando
 ```shell-session
