@@ -54,5 +54,5 @@ Now we can log in to the web UI. Simply use your browser to connect to your serv
 
 and then change the user and password
 
-![](Pasted%20image%2020240612003831.png)
+![](../../../Cybersecurity/Imagens/Pasted%20image%2020240612003831.png)
 
