@@ -2,20 +2,20 @@
 ````shell
 #!/bin/bash
 
-# Listar todos os contêineres parados
+# List all stopped containers
 stopped_containers=$(sudo docker ps -aq --filter "status=exited")
 
-# Verificar se há contêineres parados
+# Check if there are any stopped containers
 if [ -z "$stopped_containers" ]; then
-  echo "Nenhum contêiner parado encontrado."
+  echo "No stopped containers found."
 else
-  # Iniciar todos os contêineres parados
-  echo "Iniciando os contêineres parados..."
+  # Start all stopped containers
+  echo "Starting stopped containers..."
   sudo docker start $stopped_containers
-  echo "Contêineres iniciados com sucesso."
+  echo "Containers started successfully."
 fi
 
-# Listar todos os contêineres em execução
-echo "Contêineres em execução:"
+# List all running containers
+echo "Running containers:"
 sudo docker ps
 `````
