@@ -1,6 +1,6 @@
 # Check CDP Status
 
-![](Imagens/Pasted%20image%2020240611101951.png)
+![](../../Imagens/Pasted%20image%2020240611101951.png)
 
 # Enable CDP on the Interface
 ![](Imagens/Pasted%20image%2020240611102102.png)
