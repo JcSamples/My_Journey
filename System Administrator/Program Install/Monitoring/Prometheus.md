@@ -50,7 +50,7 @@ services:
 
 # With CADVISOR
 
-![](Pasted%20image%2020240614025815.png)
+![](../../../Cybersecurity/Imagens/Pasted%20image%2020240614025815.png)
 
 ##### docker-compose.yml file
 
