@@ -27,7 +27,7 @@ AND OR NOT
 
 KQL supports logical operators AND, OR, and NOT
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/1-Images/Pasted%20image%2020240225185540.png)
+![](../../1-Images/Pasted%20image%2020240225185540.png)
 
 ```shell-session
 event.code:4625 AND winlog.event_data.SubStatus:0xC0000072
