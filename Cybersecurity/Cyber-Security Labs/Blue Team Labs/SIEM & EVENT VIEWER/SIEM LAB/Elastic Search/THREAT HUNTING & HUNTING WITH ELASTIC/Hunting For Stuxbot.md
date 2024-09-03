@@ -11,11 +11,11 @@ Please also specify a `Europe/Copenhagen` timezone, through the following link
 
 ![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501145746.png)
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501145814.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501145814.png)
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501150253.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501150253.png)
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501151949.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501151949.png)
 	event.code:"15" 
 
 
@@ -25,8 +25,8 @@ Please also specify a `Europe/Copenhagen` timezone, through the following link
 `event.code:"15"  AND file.name:*invoice.one`
 
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501152520.png)
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501152731.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501152520.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501152731.png)
 
 ````
 ``event.code:`
@@ -53,7 +53,7 @@ Please also specify a `Europe/Copenhagen` timezone, through the following link
 ```shell-session
 event.code:11 AND file.name:invoice.one*
 ```
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501153743.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501153743.png)
 
 ````
 
@@ -97,7 +97,7 @@ host.name:
 
 event.code:15 AND host.hostname:WS001 AND source.ip:192.168.28.130
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501155258.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501155258.png)
 
 ````
 evento criado : Mar 29, 2023 @ 18:54:10.619
@@ -123,20 +123,20 @@ ZEEK QUERRY
 source.ip:192.168.28.130 AND dns.question.name:*
 ```
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501160728.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501160728.png)
 
 adicionar o filtro e mudar a data de pesquisa
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501161144.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501161144.png)
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501161537.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501161537.png)
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501162905.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501162905.png)
 
 
 ### Filter
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501164230.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501164230.png)
 
 
 # After we find the event
@@ -145,17 +145,17 @@ adicionar o filtro e mudar a data de pesquisa
 ```shell-session
 event.code:1 AND process.parent.command_line:*invoice.bat*
 ```
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501164739.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501164739.png)
 This query returns a single result: the initiation of PowerShell, and the arguments passed to it appear conspicuously suspicious (note that we have added `process.name`, `process.args`, and `process.pid` as columns)!
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501165049.png)
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501165107.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501165049.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501165107.png)
 # Search for powershell events
 
 process.pid:"9944" and process.name:"powershell.exe"
 
 
-![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501164427.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501164427.png)
 
 ````
 winlog.event_
