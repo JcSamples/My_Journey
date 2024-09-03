@@ -1,13 +1,13 @@
 
 **Application**
-- Mostra todos os logs fornecidos por Aplicações (crashes ,avisos entre outros)
+- Displays all logs provided by applications, including crashes, warnings, and other events.
 
 **Security**
-- Contem eventos do sistema operativo e os seus componentes (drivers, inicio de serviços, erros de hardware e crashes de sistema )
+- Contains events related to the operating system and its components, such as drivers, service startups, hardware errors, and system crashes.
 
 **Setup**
--  Grava logs de instalações de serviços e configurações de software e hardware (ótimo para troubleshooting)
+-  Records logs of service installations, as well as software and hardware configurations (great for troubleshooting).
 
 **Forwarded Event**
-- Permite que um computador guarde logs de outras máquinas
+- Allows a computer to store logs from other machines.
 
