@@ -34,7 +34,7 @@ https://<your_machine_ip>
 Replace `<your_machine_ip>` with the actual IP address of your machine.
 ### Adding an Agent
 
-![](Pasted%20image%2020240613225027.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613225027.png)
 
 To add a new agent to Wazuh, follow these steps:
 
@@ -50,59 +50,59 @@ PS C:\Windows\system32> net start wazuhsvc
 
 Alternatively, you can start the service manually through the Windows Services Manager.
 
-![](Pasted%20image%2020240613225447.png)
-![](Pasted%20image%2020240613225529.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613225447.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613225529.png)
 
 
 # Configuring Agent Rules
 
 1. Navigate to `C:\Program Files (x86)\ossec-agent` on the agent machine.
 
-![](Pasted%20image%2020240613225622.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613225622.png)
 
 2. Find and open the `ossec.conf` file. **Make a backup** of this file before making any changes.
-![](Pasted%20image%2020240613225725.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613225725.png)
 
 3. Open the file with Notepad++ or Notepad, ensuring you run the editor as an Administrator.
 
-![](Pasted%20image%2020240613233433.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613233433.png)
 
-![](Pasted%20image%2020240613234123.png)
-![](Pasted%20image%2020240613234157.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613234123.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613234157.png)
 # Configuring Event Ingestion (e.g., Sysmon)
 
 1. Open **Event Viewer** on the agent machine.
 
-![](Pasted%20image%2020240613233031.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613233031.png)
 
 
 2. Right-click on the event you want to monitor and select **Properties**
 
-![](Pasted%20image%2020240613233205.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613233205.png)
 
 3. Copy the event source name.
 
-![](Pasted%20image%2020240613233310.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613233310.png)
 
 #### In the `ossec.conf` file:
 
 4. Find the relevant section for event monitoring.
 
-![](Pasted%20image%2020240613233821.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613233821.png)
 
 5. Duplicate an existing entry and replace the source name with the one you copied from Event Viewer.
-![](Pasted%20image%2020240613233927.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613233927.png)
 
 After saving your changes:
 
 6. Restart the Wazuh service on the agent machine via the Windows Services Manager or using the command line.
 
-![](Pasted%20image%2020240614222820.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240614222820.png)
 
 ### Updating Server Configuration
 
 On the Wazuh server, back up the current configuration file:
-![](Pasted%20image%2020240613234456.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613234456.png)
 
 ````sh
 cp /var/ossec/etc/ossec.conf ~/ossec-backup.conf
@@ -110,7 +110,7 @@ cp /var/ossec/etc/ossec.conf ~/ossec-backup.conf
 
 Look for the following parameters and set them:
 
-![](Pasted%20image%2020240613234624.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613234624.png)
 ````
 <global>
   <logging>
@@ -121,7 +121,7 @@ Look for the following parameters and set them:
 `````
 
 
-![](Pasted%20image%2020240613235020.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613235020.png)
 
 After editing the configuration file, restart the Wazuh service:
 
@@ -142,10 +142,10 @@ nano /etc/filebeat/filebeat.yml
 enabled: true
 `````
 
-![](Pasted%20image%2020240613234937.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613234937.png)
 
 
-![](Pasted%20image%2020240613235038.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613235038.png)
 
 Save and exit the file.
 
@@ -156,13 +156,13 @@ To store and visualize Wazuh logs:
 1. Go to the Wazuh Dashboard.
 
 2. Navigate to **Stack Management** > **Index Patterns**.
-![](Pasted%20image%2020240613235323.png)
-![](Pasted%20image%2020240613235341.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613235323.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613235341.png)
 
 3. Create a new index pattern, using `wazuh-archives-**` as the pattern name to match all Wazuh archive logs.
-![](Pasted%20image%2020240613235402.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613235402.png)
 
-![](Pasted%20image%2020240613235421.png)
+![](../../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613235421.png)
 4. Save the new index pattern.
 5. 
 This setup allows you to query and visualize Wazuh logs in Kibana.
