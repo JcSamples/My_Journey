@@ -7,7 +7,7 @@ Now, navigate to `http://[Target IP]:5601`, click on the side navigation toggle
 Please also specify a `Europe/Copenhagen` timezone, through the following link `http://[Target IP]:5601/app/management/kibana/settings`.
 
 
-![](../Imagens/Pasted%20image%2020240501145549.png)
+![](../THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501145549.png)
 
 ![](Cybersecurity/Cyber-Security%20Labs/Blue%20Team%20Labs/SIEM%20&%20EVENT%20VIEWER/SIEM%20LAB/Elastic%20Search/THREAT%20HUNTING%20&%20HUNTING%20WITH%20ELASTIC/Imagens/Pasted%20image%2020240501145746.png)
 
