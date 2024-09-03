@@ -1,9 +1,9 @@
 
 # Sticky keys
 
-Uma característica interessante do sethc.exe é que ele também pode ser usado como uma porta de entrada para explorar o sistema, pois em algumas situações, um usuário mal-intencionado pode substituir o sethc.exe por um prompt de comando (cmd.exe). Isso pode permitir o acesso ao prompt de comando mesmo quando o computador está bloqueado, o que é conhecido como "exploit Sticky Keys".
+An interesting feature of sethc.exe is that it can also be used as an entry point to exploit the system. In some situations, a malicious user might replace sethc.exe with a command prompt (cmd.exe). This can allow access to the command prompt even when the computer is locked, which is known as the "Sticky Keys exploit."
 
-Por esse motivo, é recomendável que os administradores de sistema protejam o acesso ao sethc.exe e monitorem atividades suspeitas relacionadas a esse arquivo para garantir a segurança do sistema.
+For this reason, it is advisable for system administrators to protect access to sethc.exe and monitor suspicious activities related to this file to ensure system security.
 
 Once the machine is rebooted, we can press `Shift` five times on the Windows login screen to invoke `Sticky Keys`. Since the executable has been overwritten, what we get instead is another Command Prompt - this time with `NT AUTHORITY\SYSTEM` permissions. We have bypassed any authentication and now have access to the machine as the super user.
 
