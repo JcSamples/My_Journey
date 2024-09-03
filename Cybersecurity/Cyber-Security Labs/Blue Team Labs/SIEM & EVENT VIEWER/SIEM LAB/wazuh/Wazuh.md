@@ -29,7 +29,7 @@ https://<your_machine_ip>
 
 
 
-![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240613224712.png)
+![](../../../../../Cybersecurity/Imagens/Pasted%20image%2020240613224712.png)
 
 Replace `<your_machine_ip>` with the actual IP address of your machine.
 ### Adding an Agent
