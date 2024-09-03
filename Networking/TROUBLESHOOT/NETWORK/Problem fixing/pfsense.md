@@ -2,7 +2,7 @@
 
 ### Check if pfSense Resolves Domain Names
 
-![](../../../../Imagens/Pasted%20image%2020240616131417.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616131417.png)
 
 Or Select Option 13 in pfSense
 
