@@ -1,4 +1,4 @@
-![](../../../../Imagens/Pasted%20image%2020240616131125.png)
+![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240616131125.png)
 
 ### Check if pfSense Resolves Domain Names
 
