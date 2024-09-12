@@ -1,4 +1,4 @@
-HTB: #getting-started #infosecOverview
+
 
 ![](../../../../Cybersecurity/Imagens/Pasted%20image%2020240611100421.png)
 
